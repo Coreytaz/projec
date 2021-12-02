@@ -1,0 +1,46 @@
+.header {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    &__burger {
+        display: none;
+    }
+    &__logo {
+        cursor: pointer;
+        z-index: 4;
+    }
+    &__links {
+        list-style: none;
+        & li {
+            display: inline-block;
+        }
+    }
+    &__link {
+        margin-left: 50px;
+        transition: all 0.3s ease 0s;
+        color: white;
+        text-decoration: none;
+        &:hover {
+            color: #fd4f3c;
+            text-decoration: underline;
+        }
+    }
+    &__burger {
+        display: none;
+    }
+}
+.border {
+    padding: 7px 10px;
+    border-radius: 21.5px;
+    border: solid 3px #fff;
+}
+.header_wrapper {
+    position: fixed;
+    background-color: #0b1419e6;
+    width: 100%;
+    z-index: 100;
+}

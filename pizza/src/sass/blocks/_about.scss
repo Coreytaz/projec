@@ -1,0 +1,32 @@
+.section-about {
+    background: linear-gradient(to top, #2d2c2c, #1f1f1f);
+    color: #fff;
+    position: relative;
+    &__img {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 50%;
+        height: 100%;
+        object-fit: cover;
+    }
+    &__container {
+        position: relative;
+        display: flex;
+        justify-content: flex-end;
+    }
+    &__content {
+        width: 50%;
+        padding-left: 80px;
+    }
+    &__title {
+        text-align: left;
+        margin-bottom: 20px;
+    }
+    &__text {
+        font-family: "Roboto", sans-serif;
+        font-size: 18px;
+        line-height: 1.67;
+        margin: 0;
+    }
+}

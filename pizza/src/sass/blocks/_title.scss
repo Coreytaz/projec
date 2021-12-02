@@ -1,0 +1,14 @@
+.title {
+    display: block;
+    font-size: 24px;
+    font-weight: bold;
+    line-height: 1;
+    color: white;
+    &_fz24 {
+        color: #fcff00;
+    }
+    &_fz55 {
+        font-size: 55px;
+        line-height: 1.31
+    }
+}

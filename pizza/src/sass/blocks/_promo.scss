@@ -1,0 +1,21 @@
+.promo {
+    min-height: 100vh;
+    position: relative;
+    text-align: center;
+    background: url('../img/section-top/bg.jpg') no-repeat 50%/cover;
+    padding-top:  300px;
+    object-fit: cover;
+    &__title {
+        width: 550px;
+        margin: auto;
+    }
+    &__btn {
+        margin-top: 53px;
+        font-size: 18px;
+        font-weight: 900;
+    }
+    &_link {
+        color: white;
+        text-decoration: none;
+    }
+}

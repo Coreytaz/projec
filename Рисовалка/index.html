@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Paint</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="left">
+            <div class="row">
+                <label class="label" for="color">Выбор цвета:</label>
+                <input type="color" id="color">
+            </div>
+            <div class="row">
+                <label class="label-range" for="range">Размер пера:</label>
+                <input type="range" id="range" min="5" max="30" value="5" oninput="pero()">
+            </div>
+            <button class="btn" id="scrim">Холст</button>
+            <button class="btn" id="clear">Очистить поле</button>
+            <button class="btn" id="setka">Включить сетку</button>
+            <button class="btn" id="random">Мне повезёт!</button>
+        </div>
+        <div class="right">
+            <canvas id="cetka" width="1200" height="650"></canvas>
+        </div>
+    </div>
+</body>
+
+<script src="script.js"></script>
+
+</html>

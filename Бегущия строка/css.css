@@ -1,0 +1,31 @@
+body {
+    background-color: azure;
+}
+*,
+after,
+before {
+    box-sizing: border-box;
+}
+
+.container {
+    width: 300px;
+}
+
+.innerBox {
+    display: flex;
+    margin: auto;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    border: 2px solid #ccc;
+}
+
+.btn {
+    margin: 10px;
+}
+
+.run {
+    text-align: center;
+    width: 50%;
+}
+

@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Тестирование по арифметике</title>
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="colum">
+                <label for="plus" id="plus">? + ? =</label>
+                <input type="text" id="iplus">
+                <span id="1"></span>
+                <span id="green1" class="green"></span>
+            </div>
+            <div class="colum">
+                <label for="minus" id="minus">? - ? =</label>
+                <input type="text" id="iminus">
+                <span id="2"></span>
+                <span id="green2" class="green"></span>
+            </div>
+            <div class="colum">
+                <label for="mulity" id="mulity">? * ? =</label>
+                <input type="text" id="imulity">
+                <span id="3"></span>
+                <span id="green3" class="green"></span>
+            </div>
+            <div class="colum">
+                <label for="delenue" id="delenue">? / ? =</label>
+                <input type="text" id="idelenue">
+                <span id="4"></span>
+                <span id="green4" class="green"></span>
+            </div>
+        <button class="btn" id="test" onclick="f2()">Тест</button>
+        <button class="btn" id="proverka" onclick="f1()" disabled>Проверить</button>
+            <p>Оценка:</p>
+            <div class="div">
+                <p class="time">Осталось времени:</p>
+                <p class="time" id="time">60</p>
+            </div>
+        </div>
+    </div>
+</body>
+    <script src="java.js"></script>
+</html>

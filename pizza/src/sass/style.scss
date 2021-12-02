@@ -1,0 +1,41 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@900&family=Roboto:wght@300&display=swap");
+@import "base/variables";
+@import "base/mixins";
+
+* {
+    box-sizing: border-box;
+    font-family: "Montserrat", "Roboto", sans-serif;
+    font-size: 18px;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #fff;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+.container {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.no-croll {
+    overflow: hidden;
+}
+
+@import "blocks/btn";
+@import "blocks/header";
+@import "blocks/promo";
+@import "blocks/title";
+@import "blocks/section";
+@import "blocks/catalog";
+@import "blocks/about";
+@import "blocks/contacts";
+@import "blocks/footer";
+@import "blocks/modal";
+@import "blocks/media";

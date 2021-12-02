@@ -1,0 +1,58 @@
+*,
+after,
+before {
+    box-sizing: border-box;
+}
+
+body {
+    overflow: hidden;
+    font-size: 20px;
+    font-family: sans-serif;
+}
+
+#cetka {
+    width: 1200px;
+    height: 650px;
+    border: 2px solid black;
+    margin: 20px;
+}
+
+.btn {
+    margin: 30px;
+    display: block;
+    height: 40px;
+    border: 1px solid #000;
+    color: #000;
+    text-align: center;
+    width: 150px;
+    background-color: #fff;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: 700;
+    transition: background-color 1s linear;
+}
+
+.btn:hover{
+    background-color: blue;
+    color:#fff;
+    border-color:#fff;
+}
+
+.row {
+    display: block;
+    text-align: center;
+    margin-top: 15px;
+}
+
+.container {
+    display: flex;
+}
+
+.left {
+    margin: auto;
+}
+
+.right {
+    display: flex;
+    justify-content: flex-end;
+}

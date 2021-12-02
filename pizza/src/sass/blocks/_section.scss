@@ -1,0 +1,15 @@
+.section {
+    overflow: hidden;
+    padding: 110px 0;
+    &__header {
+        margin-bottom: 90px;
+    }
+    &__title {
+        font-size: 48px;
+        text-align: center;
+        margin: 0 auto 40px;
+        &--accent {
+            color: $main-color;
+        }
+    }
+}
